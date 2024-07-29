@@ -11,7 +11,7 @@ function getComputerChoice(min, max){
 
     
 function getHumanChoice(){
-    let sign = Number(window.prompt("Enter 1 for Rock, 2 for Paper, 3 for Scissor ",""));
+    let sign = Number(window.prompt("Enter 1 for Rock, 2 for Paper, 3 for Scissor. It will be a 5 Round Game",""));
 
     if(sign!=1 && sign!==2 && sign!=3){
         console.log("You entered invalid value")
