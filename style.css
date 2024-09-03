@@ -1,0 +1,28 @@
+button{
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    font-size: 24px;
+    border-style: solid;
+    border-color: brown;
+}
+
+
+.Result{
+    border-style: dashed;
+    height: 150px;
+    width: 300px;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 50px;
+    height: auto;
+}
